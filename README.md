@@ -1,38 +1,43 @@
 # Project 1 : portfolio 
 
+Hi,My name is **Anas** , and this is my first Project in web developing 
 
-![personal pic](./profile.png)
-
-Hi,My name is **Anas** , and this is my first Project in web developing **Aqaba city**
-
-Down here I will sort some info about myself 
+Down here I will sort some info about The project
 
 
 ## Breif
 
-The project is a portfolio page represent my Personal Curr
+The project is a portfolio page represent my Personal Curriculum Vita
 
 
-## Experience
+## Sections
 
-* 2018-2019
-: Materials Resistance And soil Testing Engineer
+the page is devided as below :
 
-* 2019-2021
-: Safety Engineer
-
-
-## Education
-
-* 2012-2017
-: B.A in **Mining Engineer** From Al- hussein Bin Talal University
-
-## Projects
+* Header :- contains a picture , Name ,the Job and small paragraph about me
+* Education :- here you can find what I have studied over the years
+* Projects :- quick view for my previous Projects (fake data)
+* Experience :- all the skills and knowldge I gained from my work Journey
+* Footer :- contact info plus some quotes that I like 
 
 
-## Intrests
+## Design 
 
-front/back-end Developing,Swimming,Card Games and Chess
+the page is Designed according to the wireframe and Mockup style, wich are confirmed previously
+
+* A picture of the Wireframe 
+![Wireframe](./portfilo%20Resume%20wireframe.jpg)
+
+* A picture of the Mockup
+![personal pic](./protifilo%20resume%20mockup.jpg) 
+
+## Project links
+
+* Project repo link
+[Git Hub](https://github.com/10-anasAllawafeh)
+
+*Project Live Link 
+[Git Hub](https://github.com/10-anasAllawafeh)
 
 ## Contact Info
 
