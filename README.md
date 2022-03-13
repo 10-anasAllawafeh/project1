@@ -29,15 +29,15 @@ the page is Designed according to the wireframe and Mockup style, wich are confi
 ![Wireframe](./portfilo%20Resume%20wireframe.jpg)
 
 * A picture of the Mockup
-![personal pic](./protifilo%20resume%20mockup.jpg) 
+![Mockup](./Mockup.jpg) 
 
 ## Project links
 
 * Project repo link
-[Git Hub](https://github.com/10-anasAllawafeh)
+[Ropo](https://github.com/10-anasAllawafeh/project1)
 
-*Project Live Link 
-[Git Hub](https://github.com/10-anasAllawafeh)
+* Project Live Link 
+[Live](https://10-anasallawafeh.github.io/project1/)
 
 ## Contact Info
 
