@@ -1,17 +1,16 @@
-# Anas Allwafia
+# Project 1 : portfolio 
 
 
 ![personal pic](./profile.png)
 
-Hi,My name is **Anas** , I am a web developer student at Orange coding academy.
-I am one of the first students in the academy in **Aqaba city**
+Hi,My name is **Anas** , and this is my first Project in web developing **Aqaba city**
 
 Down here I will sort some info about myself 
 
 
-## Objective
+## Breif
 
-A full Stack Web Developer position in an ampitious Company to improve and gain Experince, Hopefully some day I will have my own company.
+The project is a portfolio page represent my Personal Curr
 
 
 ## Experience
