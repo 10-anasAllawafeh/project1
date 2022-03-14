@@ -34,6 +34,8 @@ The page is Designed according to the wireframe and Mockup style, wich are confi
 
 ![Mockup](mockup.jpg) 
 
+[substiute_mockup](https://miro.com/app/board/uXjVOGDcx18=/?invite_link_id=895536890613)
+
 
 
 
