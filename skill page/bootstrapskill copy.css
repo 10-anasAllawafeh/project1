@@ -34,3 +34,10 @@ div p{
 i{
     background-color: white;
 }
+
+div.bg-info p{
+    color: black;
+    border-bottom: 2px solid white;
+    padding-bottom: 30px;
+
+}

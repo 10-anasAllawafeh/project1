@@ -55,7 +55,7 @@
         </div>
         <br>
         <div class="progress">
-            <div class=""><i class="fa-solid fa-hourglass fa-lg">Time Manege&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></div><br>
+            <div class=""><i class="fa-solid fa-hourglass fa-lg">Time Manage&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></div><br>
             <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
         </div>
         <br>
@@ -79,10 +79,10 @@
     <div class="container-fluid diva d-flex justify-content-center"><a href="../index.html" class="badge badge-warning "><h3>Home</h3></a></div>
 
 
+<br><br><br><br><br><br>
 
 
-
-    <div class="container-fluid">
+    <div class="container-fluid bg-info">
 
         <p>Job Tracking Form</p>
 
@@ -92,14 +92,21 @@
                 <input type="text" class="form-control" placeholder="Job Title" id="job"><br>
                 <label for="company">Company name</label>
                 <input type="text" class="form-control" placeholder="Company Name" id="company"><br>
-                <label for="place">City :</label>
-                <input type="radio" class="form-control" id="place"> Aqaba
-                <label for="date">Job Intrveiw Date</label>
-                <input type="date" class="form-control">
+                <div class="form-check">
+                    <h6>City:</h6>
+                    <input type="radio" class="form-check-input" id="op1" value="option1"> Aqaba&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" class="form-check-input" id="op2" value="option1"> Amman&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" class="form-check-input" id="op3" value="option1"> Other
+                </div>
+                <br>
+                <label for="date">Job Interview Date</label>
+                <input type="date" class="form-control w-25" id="date">
                 <label for="note">Note</label>
-                <input type="text" class="form-control" placeholder="Job Intreveiw Note" id="note">
-                <button class="btn btn-bg-succes "><h2>Submit</h2></button>
-                <button class="btn btn-bg-succes"><h2>Reset</h2></button>
+                <input type="text" class="form-control" placeholder="Job Interview Note" id="note">
+                <br><br>
+                <button class="btn btn-success btn-lg btn-block "><h2>Submit</h2></button>
+                <button class="btn btn-success btn-lg btn-block"><h2>Reset</h2></button>
+                <br><br><br>
 
             </div>
         </form>
