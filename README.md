@@ -31,6 +31,7 @@ The page is Designed according to the wireframe and Mockup style, wich are confi
 ![Wireframe](./wireframe.jpg)
 
 * A picture of the Mockup
+
 ![Mockup](mockup.jpg) 
 
 
