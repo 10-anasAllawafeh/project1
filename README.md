@@ -34,6 +34,8 @@ The page is Designed according to the wireframe and Mockup style, wich are confi
 ![Mockup](./mockup.jpg) 
 
 
+
+
 ## Additions
 A job tracking form added to the skills page
 
