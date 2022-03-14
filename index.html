@@ -15,9 +15,9 @@
     <title>Portfolio Project</title>
 </head>
 <body>
-
     
-    <div class="jumbotron d-flex justify-content-center">
+    
+    <div class="jumbotron d-flex justify-content-center" id="home">
         
             <figure class="figure">
                 <img class="img-figure rounded-circle w-50 img-thumbnail" src="./portfolio/profile.png" alt="profile picture">
@@ -28,13 +28,26 @@
             </figure>
     </div>
 
+        <nav class="navbar navbar-light bg-light d-flex justify-content-center sticky-top">
+        <form class="form-inline">
+            <a href="#home" class="badge badge-warning"><h5>Home</h5></a> &nbsp;&nbsp;&nbsp;
+            <a href="#education" class="badge badge-warning"><h5>Education</h5></a> &nbsp;&nbsp;&nbsp;
+            <a href="#project" class="badge badge-warning"><h5>Projects</h5></a>&nbsp;&nbsp;&nbsp;
+            <a href="./skill page/index.html" class="badge badge-warning"><h5>Skills</h5></a> &nbsp;&nbsp;&nbsp;
+            <a href="#experience" class="badge badge-warning"><h5>Experience</h5></a>&nbsp;&nbsp;&nbsp;
+            <a href="#contact" class="badge badge-warning"><h5>Contact Me</h5></a>
+          
+        </form>
+      </nav>
+
+
     <div class="container mx-auto ">
         <h2 class="text-center">Hi, my name is Anas and I am currently in my <span class="or">Journey</span> to become a Full stack web developer ,let me tell you more in my profile ...</h2>
     </div>
 
     <div class="container mx-auto ">
         <br><br><br><br>
-        <h1 class="text-center bg-ligt mb-5"><span class="ta">___________________</span><span class="tb">________   </span>Education<span class="tb">   ________</span><span class="ta">___________________</span></h1>
+        <h1 class="text-center bg-ligt mb-5"><span class="ta" id="education">___________________</span><span class="tb">________   </span>Education<span class="tb">   ________</span><span class="ta">___________________</span></h1>
         <table class="container text-center mx-auto">
             <thead>
                 <td class="col-4"><p>2022-present</p></td>
@@ -60,7 +73,7 @@
     
     <div class="container mx-auto ">
         <br><br><br><br>
-        <h1 class="text-center bg-ligt mb-5"><span class="ta">___________________</span><span class="tb">________   </span>Projects<span class="tb">   ________</span><span class="ta">___________________</span></h1>
+        <h1 class="text-center bg-ligt mb-5" id="project"><span class="ta">___________________</span><span class="tb">________   </span>Projects<span class="tb">   ________</span><span class="ta">___________________</span></h1>
     
      <div class="row d-flex justify-content-around fi">
         <div class="card w-25 col-3">
@@ -100,7 +113,7 @@
 
     <div class="container mx-auto ">
         <br><br><br><br>
-        <h1 class="text-center bg-ligt mb-5"><span class="ta">__________________</span><span class="tb">________   </span>Experience<span class="tb">   ________</span><span class="ta">___________________</span></h1>
+        <h1 class="text-center bg-ligt mb-5" id="experience"><span class="ta">__________________</span><span class="tb">________   </span>Experience<span class="tb">   ________</span><span class="ta">___________________</span></h1>
 
         <dl>
             <dt><p>2017-2018(6 months): Mining Engineer training program at Energy & Minerals Regulatory Comission (EMrC)</p>
@@ -123,7 +136,7 @@
 
 
     <div class=" fi fii">
-            <h3>Contact Me</h3> <br>
+            <h3 id="contact">Contact Me</h3> <br>
                <a><span class="material-icons">
                 phone
                 </span>077-808 91 69</a> <br>

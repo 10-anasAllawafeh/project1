@@ -1,0 +1,36 @@
+body{
+    
+    margin: 1% 5%;
+}
+
+div.container-fluid.a{
+    border: 5px solid #2f6089;
+}
+a{
+    color: #2f6089;
+    
+    
+}
+
+
+p{
+    text-align: center;
+    color:#2f6089;
+    
+    font-size: 40px;
+    font-weight: bolder ;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+}
+div p{
+    color: #2f6089;
+    
+    font-size: 30px;
+    font-weight: bolder ;
+    font-style: oblique;
+    font-family:'Times New Roman', Times, serif;
+
+}
+i{
+    background-color: white;
+}
