@@ -482,6 +482,12 @@ div.dropright{
     div.dropright{
         display: block;
         font-size: 15px;
+        margin-top: -2%;
+    }
+    nav.navbar{
+        padding-top: 0%;
+        padding-bottom: 0%;
+        margin-top: -22px;
     }
     h2.text-center{
         margin-left: -2%;
@@ -504,6 +510,9 @@ div.dropright{
     }
     div.card{
         display: contents;
+    }
+    div.imp{
+        margin-left: 0% !important;
     }
 
 

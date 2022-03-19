@@ -15,27 +15,50 @@
     <title>My Skills</title>
 </head>
 <body>
+    <nav class="navbar navbar-light bg-light justify-content-center sticky-top">
+        <form class="form-inline">
+            <a href="../index.html" class="badge badge-warning"><h6>Home</h6></a> &nbsp;&nbsp;&nbsp;
+            <a href="../index.html#education" class="badge badge-warning"><h6>Education</h6></a> &nbsp;&nbsp;&nbsp;
+            <a href="../index.html#project" class="badge badge-warning"><h6>Projects</h6></a>&nbsp;&nbsp;&nbsp;
+            <a href="./index.html" class="badge badge-warning"><h6>Skills</h6></a> &nbsp;&nbsp;&nbsp;
+            <a href="../index.html#experience" class="badge badge-warning"><h6>Experience</h6></a>&nbsp;&nbsp;&nbsp;
+            <a href="../index.html#contact" class="badge badge-warning"><h6>Contact Me</h6></a>
+        </form>
+        <div class="btn-group dropright">
+            <a href="../index.html" class="badge badge-warning H" role="button"><h2>Home</h2></a>
+            <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="sr-only bg-light">Toggle Dropright</span>
+            </button>
+            <div class="dropdown-menu bg-light">
+            <a href="../index.html#education" class="badge badge-warning"><h5>Education</h5></a>
+            <a href="../index.html#project" class="badge badge-warning"><h5>Projects</h5></a>
+            <a href="./index.html" class="badge badge-warning"><h5>Skills</h5></a> 
+            <a href="../index.html#experience" class="badge badge-warning"><h5>Experience</h5></a>
+            <a href="../index.html#contact" class="badge badge-warning"><h5>Contact Me</h5></a>
+            </div>
+          </div>
+      </nav>
 
     
 
-    <p>My Skills</p>
-    <div class="container-fluid a mb-5">
-        <p>Technical Skills</p> <br>
+    <p id="title">My Skills</p>
+    <div class="container a mb-5">
+        <p class="co">Technical Skills</p> <br>
 
 
-         <div class="progress">
-             <div class=""><i class="fa-brands fa-html5 fa-xl">HTML&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></div>
-             <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">75%</div>
+         <div class="progress row">
+             <div class="col-2"><i class="fa-brands fa-html5 fa-xl"><span>HTML</span></i></div>
+             <div class="progress-bar progress-bar-striped col-7" role="progressbar" style="width: 75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">75%</div>
              </div>
              <br>
-         <div class="progress">
-            <div class=""><i class="fa-brands fa-css3-alt fa-xl">CSS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></div>
-            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 50%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">50%</div>
+         <div class="progress row">
+            <div class="col-2"><i class="fa-brands fa-css3-alt fa-xl"><span>CSS</span></i></div>
+            <div class="progress-bar progress-bar-striped col-5" role="progressbar" style="width: 50%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">50%</div>
         </div>
             <br>
-         <div class="progress">
-            <div class=""><i class="fa-brands fa-github-alt fa-xl">GitHub&nbsp;&nbsp;&nbsp;</i></div>
-            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 40%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">40%</div>
+         <div class="progress row">
+            <div class="col-2"><i class="fa-brands fa-github-alt fa-xl"><span>GitHub</span></i></div>
+            <div class="progress-bar progress-bar-striped col-4" role="progressbar" style="width: 40%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">40%</div>
          </div>
          <br><br>
     </div>
@@ -44,45 +67,44 @@
         
 
 
-    <div class="container-fluid a mx-auto">
-        <p>Soft Skills</p> <br>
+    <div class="container a mx-auto">
+        <p class="co">Soft Skills</p> <br>
 
 
         
-        <div class="progress mx-auto">
-            <div class=""><i class="fa-solid fa-comments fa-lg">Communicate &nbsp;&nbsp;</i></div>
-            <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
+        <div class="progress mx-auto row">
+            <div class="col-2"><i class="fa-solid fa-comments fa-lg"><span>Communicate</span></i></div>
+            <div class="progress-bar progress-bar-striped bg-success col-8" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
         </div>
         <br>
-        <div class="progress">
-            <div class=""><i class="fa-solid fa-hourglass fa-lg">Time Manage&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></div><br>
-            <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
+        <div class="progress mx-auto row">
+            <div class="col-2"><i class="fa-solid fa-hourglass fa-lg"><span>Time Manage</span></i></div><br>
+            <div class="progress-bar progress-bar-striped bg-success col-5" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
         </div>
         <br>
-        <div class="progress">
-            <div class=""><i class="fa-solid fa-network-wired fa-lg">Team Work&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></div><br>
-            <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">85%</div>
+        <div class="progress mx-auto row">
+            <div class="col-2"><i class="fa-solid fa-network-wired fa-lg"><span>Team Work</span></i></div><br>
+            <div class="progress-bar progress-bar-striped bg-success col-9" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">85%</div>
         </div>
         <br>
-        <div class="progress">
-            <div class=""><i class="fa-solid fa-chalkboard-user fa-lg">Presentation&nbsp;&nbsp;</i></div><br>
-            <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">85%</div>
+        <div class="progress mx-auto row">
+            <div class="col-2"><i class="fa-solid fa-chalkboard-user fa-lg"><span>Presentation</span></i></div><br>
+            <div class="progress-bar progress-bar-striped bg-success col-9" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">85%</div>
         </div>
         <br>
-        <div class="progress">
-            <div class=""><i class="fa-solid fa-magnifying-glass fa-lg">Searching&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></div><br>
-            <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 60%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">60%</div>
+        <div class="progress mx-auto row">
+            <div class="col-2"><i class="fa-solid fa-magnifying-glass fa-lg"><span>Searching</span></i></div><br>
+            <div class="progress-bar progress-bar-striped bg-success col-6" role="progressbar" style="width: 60%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">60%</div>
         </div>
         <br><br>
     </div> <br>
 
-    <div class="container-fluid diva d-flex justify-content-center"><a href="../index.html" class="badge badge-warning "><h3>Home</h3></a></div>
 
 
 <br><br><br><br><br><br>
 
 
-    <div class="container-fluid bg-info">
+    <div class="container bg-info">
 
         <p>Job Tracking Form</p>
 
@@ -110,9 +132,49 @@
 
             </div>
         </form>
+    </div>
+    <br><br><br><br>
 
+
+    <div class="container-fluid row d-flex foot">
+
+
+
+        <div class="col-3 fi fii">
+                <h3 id="contact">Contact Me</h3>
+                   <a><span class="material-icons">
+                    phone
+                    </span>077-808 91 69</a> <br>
+                   <a href="https://www.google.com/maps/place/%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D9%81+%D8%B4%D8%A7%D9%83%D8%B1+%D8%A8%D9%86+%D8%B2%D9%8A%D8%AF%D8%8C+%D8%A7%D9%84%D8%B9%D9%82%D8%A8%D8%A9%E2%80%AD/@29.5399136,35.0095171,18z/data=!3m1!4b1!4m5!3m4!1s0x150070244978f323:0x57fbba9c047a3613!8m2!3d29.5399136!4d35.0088986" target="_blank"><span class="material-icons">
+                    place
+                    </span>Aqaba/Alamia/<br>Shaker bin zaid.st</i></a> <br>
+        </div>
     
-
+        
+        <div class="col-3 fi fiia">
+                   <a href="https://github.com/10-anasAllawafeh" target="_blank"><i class="fa-brands fa-github fa-xl">10-anasAllawafeh</i></a> <br> <br>
+                   <a href="https://www.linkedin.com/in/anas-al-lawafia-b05954232" target="_blank"><i class="fa-brands fa-linkedin fa-xl">Anas Al-Lawafia</i></a> <br><br>
+                   <a href="https://www.google.com/intl/ar/gmail/about/" target="_blank"><i class="fa-regular fa-envelope fa-xl"> anasq0q@gmail.com</i></a> <br><br>
+        </div>
+    
+    
+        <div class="col-3 fiib">
+                <h3>Algorithm Of Success :</h3>
+                   <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="or">while</span> (no success) <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; { <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; try <span class="or">again</span>(); <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if(dead)  <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="or">break</span>; <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</p>
+        </div>
+    
+    
+        <div class="col-3 fiil">
+            when you learn through coding,[you're] coding to learn. you're learning it in a meaningful context, and that's the best way of learning things.<br>
+            <p>-Mitchel Resnick</p>
+        </div>
+    
+    
     </div>
 </body>
 </html>
