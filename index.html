@@ -17,7 +17,7 @@
 <body>
 
 
-    <nav class="navbar navbar-light bg-light d-flex justify-content-center sticky-top">
+    <nav class="navbar navbar-light bg-light justify-content-center sticky-top">
         <form class="form-inline">
             <a href="#home" class="badge badge-warning"><h5>Home</h5></a> &nbsp;&nbsp;&nbsp;
             <a href="#education" class="badge badge-warning"><h5>Education</h5></a> &nbsp;&nbsp;&nbsp;
@@ -25,8 +25,20 @@
             <a href="./skill page/index.html" class="badge badge-warning"><h5>Skills</h5></a> &nbsp;&nbsp;&nbsp;
             <a href="#experience" class="badge badge-warning"><h5>Experience</h5></a>&nbsp;&nbsp;&nbsp;
             <a href="#contact" class="badge badge-warning"><h5>Contact Me</h5></a>
-          
         </form>
+        <div class="btn-group dropright">
+            <a href="#home" class="badge badge-warning H" role="button"><h2>Home</h2></a>
+            <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="sr-only bg-light">Toggle Dropright</span>
+            </button>
+            <div class="dropdown-menu bg-light">
+            <a href="#education" class="badge badge-warning"><h5>Education</h5></a>
+            <a href="#project" class="badge badge-warning"><h5>Projects</h5></a>
+            <a href="./skill page/index.html" class="badge badge-warning"><h5>Skills</h5></a> 
+            <a href="#experience" class="badge badge-warning"><h5>Experience</h5></a>
+            <a href="#contact" class="badge badge-warning"><h5>Contact Me</h5></a>
+            </div>
+          </div>
       </nav>
     
     
@@ -78,7 +90,7 @@
         <br><br><br><br>
         <h1 class="text-center bg-ligt mb-5" id="project"><div class="dash"><hr></div>Projects<div class="dash"><hr></div></h1>
     
-     <div class="row d-flex justify-content-around fi">
+     <div class="row justify-content-around fi">
         <div class="card w-25 col-3">
             <div class="cardd-img" id="img1"><a href="">SEE DETAILS</a></div>
             <!-- <img class="img-card-top fi" src="./portfolio/2.jpg" alt="Project 3 pic"><a href="" class="p3 pp">see details</a>  -->

@@ -221,6 +221,10 @@ div.foot{
 }
 
 
+div.dropright{
+    display: none;
+}
+
 
 /* meadia part */
 
@@ -345,7 +349,6 @@ div.foot{
 @media (max-width:768px) {
 
     .figure-caption{ 
-        
         margin-bottom:48%;
         margin-left:0%;
         font-size: 18px;
@@ -447,7 +450,14 @@ div.foot{
     }
 
     div.foot{
-        display: contents !important;
+        display: grid !important;
+        justify-items: center;
+        align-items: stretch;
+        justify-content: center;
+        align-content: center;
+    }
+    div.col-3{
+        display: contents;
     }
 
     .fii{
@@ -461,10 +471,39 @@ div.foot{
 
     div.dash{
         display: inline-block;
-        border-bottom: 1px solid #ececec;
+        border-bottom: 1px solid #474747;
         width: 16%;
-        margin: 0% 1%;
+        margin: -2% 3%;
     
+    }
+    form.form-inline{
+        display: none;
+    }
+    div.dropright{
+        display: block;
+        font-size: 15px;
+    }
+    h2.text-center{
+        margin-left: -2%;
+        margin-top: -8%;
+    }
+    h2,h1,div.replace,li,dt,dd,div.fiil,div.fiib p{
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    div.dropright a.H{
+        padding: 0.75em 1.4em;
+    }
+    div.row.fi{
+        display: grid;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+    }
+    div.card{
+        display: contents;
     }
 
 
@@ -476,9 +515,9 @@ div.foot{
 @media (max-width:320px){
     div.dash{
         display: inline-block;
-        border-bottom: 1px solid #ececec;
+        border-bottom: 1px solid #474747;
         width: 14%;
-        margin: 0% 1%;
+        margin: -2% 3%;
     
     }
     div.card{
@@ -486,6 +525,12 @@ div.foot{
     }
     div.card-body{
         padding-right: 40px;
+    }
+    .figure-caption{ 
+        font-size: 7px;
+    }
+    .figure-caption span{
+        font-size: 5px;
     }
 }
     
