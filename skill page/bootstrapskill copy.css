@@ -38,6 +38,7 @@ div.bg-info p{
     color: black;
     border-bottom: 2px solid white;
     padding-bottom: 30px;
+    text-align: center;
 
 }
 div.progress{
@@ -234,7 +235,7 @@ div.foot{
         padding-left: 0%;
         padding-right: 0%;
     }
-    div.container-fluid.mx-auto{
+    div.container.mx-auto{
         padding-left: 0%;
     }
     div.foot{
