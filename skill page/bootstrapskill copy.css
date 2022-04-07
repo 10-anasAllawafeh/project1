@@ -55,7 +55,7 @@ nav a{
 
     transition: 3s ease-in-out
 }
-div.dropright{
+.btn-group{
     display: none;
 }
 #title{
@@ -214,10 +214,10 @@ div.foot{
     form.form-inline{
         display: none;
     }
-    div.dropright{
+    .btn-group{
         display: block;
-        font-size: 15px;
-        margin-top: -2%;
+        /* font-size: 15px;
+        margin-top: -2%; */
     }
     nav.navbar{
         padding-top: 0%;

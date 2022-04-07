@@ -221,7 +221,7 @@ div.foot{
 }
 
 
-div.dropright{
+.btn-group{
     display: none;
 }
 
@@ -479,10 +479,10 @@ div.dropright{
     form.form-inline{
         display: none;
     }
-    div.dropright{
+    .btn-group{
         display: block;
-        font-size: 15px;
-        margin-top: -2%;
+        /* font-size: 15px;
+        margin-top: -2%; */
     }
     nav.navbar{
         padding-top: 0%;
@@ -498,9 +498,9 @@ div.dropright{
         font-weight: bold;
     }
 
-    div.dropright a.H{
+    /* div.dropright a.H{
         padding: 0.75em 1.4em;
-    }
+    } */
     div.row.fi{
         display: grid;
         align-items: center;
